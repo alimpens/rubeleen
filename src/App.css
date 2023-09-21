@@ -1,0 +1,106 @@
+#root {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#scrolly {
+  position: relative;
+  background-color: #f3f3f3;
+}
+
+article {
+  position: relative;
+  padding: 0;
+  max-width: 20rem;
+  margin: 0 auto;
+
+  top: -300px;
+}
+
+.background {
+  position: -webkit-sticky;
+  position: sticky;
+  left: 0;
+  width: 100%;
+  margin: 0;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  background-color: #8a8a8a;
+  z-index: 0;
+
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.background-zero {
+  background: #c6ffdd; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #a6c0fe, #f68084);
+  background: linear-gradient(to right, #a6c0fe, #f68084);
+}
+
+.background-one {
+  background: #c6ffdd; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #f7797d, #fbd786, #c6ffdd);
+  background: linear-gradient(to right, #f7797d, #fbd786, #c6ffdd);
+}
+
+.background-two {
+  background: #c6ffdd; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #f7797d, #fbd786, #c6ffdd);
+  background: linear-gradient(to right, #f7797d, #fbd786, #c6ffdd);
+}
+
+.background-three {
+  background-image: url("notice.gif");
+}
+
+.background-four {
+  background-image: url("morphing.gif");
+}
+
+.background-five {
+  background-image: url("argument.gif");
+}
+
+.background-six {
+  background-image: url("hazes.gif");
+}
+
+.background-seven {
+  background-image: url("sjoelen.gif");
+}
+
+.background-eight {
+  background-image: url("nye-one.gif");
+}
+
+.background-nine {
+  background-image: url("nye-two.gif");
+}
+
+.background-ten {
+  background-image: url("nye-three.webp");
+}
+
+.background-eleven {
+  background-image: url("nye-four.gif");
+}
+
+.step {
+  margin: 0 auto 2rem auto;
+  color: #fff;
+}
+
+.step:last-child {
+  margin-bottom: 0;
+}
+
+.step p {
+  text-align: center;
+  padding: 1rem;
+  font-size: 1.5rem;
+  background-color: rgba(0, 0, 0, 0.7);
+}
