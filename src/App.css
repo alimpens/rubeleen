@@ -54,39 +54,39 @@ article {
 }
 
 .background-three {
-  background-image: url("notice.gif");
+  background-image: url("/notice.gif");
 }
 
 .background-four {
-  background-image: url("morphing.gif");
+  background-image: url("/morphing.gif");
 }
 
 .background-five {
-  background-image: url("argument.gif");
+  background-image: url("/argument.gif");
 }
 
 .background-six {
-  background-image: url("hazes.gif");
+  background-image: url("/hazes.gif");
 }
 
 .background-seven {
-  background-image: url("sjoelen.gif");
+  background-image: url("/sjoelen.gif");
 }
 
 .background-eight {
-  background-image: url("nye-one.gif");
+  background-image: url("/nye-one.gif");
 }
 
 .background-nine {
-  background-image: url("nye-two.gif");
+  background-image: url("/nye-two.gif");
 }
 
 .background-ten {
-  background-image: url("nye-three.webp");
+  background-image: url("/nye-three.webp");
 }
 
 .background-eleven {
-  background-image: url("nye-four.gif");
+  background-image: url("/nye-four.gif");
 }
 
 .step {
