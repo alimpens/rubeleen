@@ -18,6 +18,20 @@ article {
   top: -300px;
 }
 
+@keyframes loading {
+  0% {
+    background-color: rgb(146, 213, 142);
+  }
+
+  50% {
+    background-color: rgb(133, 184, 222);
+  }
+
+  100% {
+    background-color: rgb(146, 213, 142);
+  }
+}
+
 .background {
   position: -webkit-sticky;
   position: sticky;
@@ -30,27 +44,25 @@ article {
   background-color: #8a8a8a;
   z-index: 0;
 
+  animation: loading ease;
+  animation-iteration-count: infinite;
+  animation-duration: 1.5s;
+
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
 }
 
 .background-zero {
-  background: #c6ffdd; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #a6c0fe, #f68084);
-  background: linear-gradient(to right, #a6c0fe, #f68084);
+  background-image: url("/intro.gif");
 }
 
 .background-one {
-  background: #c6ffdd; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #f7797d, #fbd786, #c6ffdd);
-  background: linear-gradient(to right, #f7797d, #fbd786, #c6ffdd);
+  background-image: url("/intro.gif");
 }
 
 .background-two {
-  background: #c6ffdd; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #f7797d, #fbd786, #c6ffdd);
-  background: linear-gradient(to right, #f7797d, #fbd786, #c6ffdd);
+  background-image: url("/time.gif");
 }
 
 .background-three {
@@ -87,6 +99,26 @@ article {
 
 .background-eleven {
   background-image: url("/nye-four.gif");
+}
+
+.background-twelve {
+  background-image: url("/notice2.gif");
+}
+
+.background-thirteen {
+  background-image: url("/fun.gif");
+}
+
+.background-fourteen {
+  background-image: url("/enjoy.gif");
+}
+
+.background-fifteen {
+  background-image: url("/skipping-couples.gif");
+}
+
+.background-sixteen {
+  background-image: url("/party.gif");
 }
 
 .step {
